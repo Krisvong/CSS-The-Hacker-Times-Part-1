@@ -74,3 +74,16 @@ main img {
 .grid-container img {
     width: 100%;
 }
+
+footer {
+    padding-right: 30px;
+    padding-left: 2px;
+    padding-top: 20px;
+    width: 100%;
+    
+}
+
+footer ul li {
+    padding: 20px;
+    
+}
