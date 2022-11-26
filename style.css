@@ -61,18 +61,27 @@ h5 {
 }
 
 main img {
-    width: 100%;
-    
+    width: 100%;   
 }
+
 .grid-container {
-    display: flex;
-    font-family: Roboto Slab;
-    column-gap: 20px;
-    
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;        
+}
+
+.grid-item {
+    font-family: 'Roboto Slab';
 }
 
 .grid-container img {
-    width: 100%;
+    width: 50vh;
+}
+
+.grid-container p {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Source Sans Pro';
 }
 
 footer {
@@ -86,4 +95,4 @@ footer {
 footer ul li {
     padding: 20px;
     
-}
+} 
