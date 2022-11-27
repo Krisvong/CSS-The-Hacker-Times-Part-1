@@ -35,16 +35,21 @@ main h2 {
 }
 nav ul li {
     list-style-type: none;
-    padding: .3em;
+    /* padding: .3em; */
+    padding: 2px 5px 2px 2px;
     display: inline-block;
         
 }
 
 nav {
     border-top: 2px solid #d3d3d3;
-    border-bottom: 2px solid #d3d3d3;
+    border-bottom: 2px solid #d3d3d3;  
 }
-
+ .top {
+    position: sticky;
+    top: 9px;
+    background: #eee;
+ }
 nav a {
     color: #777;
     text-decoration: none;
